@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="../js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$("#id").focus(function(){					  //id유일 선택자 요소에 포커스를 가졌을때
+		$('#id').css("background-color","orange");//id 선택자 요소에 배경색을 노랑으로 설정
+	});
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>

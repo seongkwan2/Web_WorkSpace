@@ -1,0 +1,11 @@
+ATTRIBUTE_VALUE=\#008040 | null | false | false | false | false
+CLASS=\#3f7f7f | null | true | false | false | false
+COMMENT=\#000080 | null | false | false | false | false
+ID=\#3f7f7f | null | true | false | false | false
+PROPERTY_NAME=\#ff0000 | null | true | false | false | false
+PROPERTY_VALUE=\#2a00e1 | null | true | false | false | false
+PSEUDO=\#3f7f7f | null | true | false | false | false
+SELECTOR=\#0000ff | null | true | false | false | false
+URI=\#2a00e1 | null | true | false | false | false
+eclipse.preferences.version=1
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>

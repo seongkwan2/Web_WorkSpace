@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="../js/jquery.js"></script>
+<style type="text/css">
+	div.out{
+		width:230px; height: 200px; /*너비를 230픽셀, 높이를 200픽셀*/
+		background-color: yellow; 	/*배경색을 노란색*/
+	}
+</style>
+</head>
+<body>
+
+</body>
+</html>
