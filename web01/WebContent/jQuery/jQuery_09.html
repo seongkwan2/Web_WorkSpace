@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="../js/jquery.js"></script>
+<script>
+ $(document).ready(function(){
+	$("#fadeIn").click(function(){
+		$("#cat").fadeIn('slow'); //jQuery fadeIn()함수는 해당 요소를 천천히 보이게 한다.
+	});
+	
+	$('#fadeOut').click(function(){
+		$('#cat').fadeOut("slow"); //jquery fadeOut() 함수는 해당 요소를 사라지게 한다.
+	});
+ });
+</script>
+</head>
+<body>
+ <button id = "fadeIn" type="button">fadeIn()</button>
+ <input type="button" id="fadeOut" value="fadeOut()">	<!-- 같은 버튼이지만 다르게 표현 -->
+ <hr>
+ <img id="cat" src="../images/cat.jpg" width="300" height="270"
+ style="display:none; position: relative;">
+</body>
+</html>

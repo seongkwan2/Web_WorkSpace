@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="../js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$('#attr_Btn').click(function(){
+		/*
+		문제) jQuery attr()함수를 사용하여 alt속성값을 'Best 딸기'로 변경하는 코드를 추가해보자.
+		*/
+			$('#straw').attr('alt','Best 딸기');
+		
+			/*
+			attr로 속성값을 불러와서 그것을 바꿀수 있다.
+			.attr('불러올속성','바꿀값')
+			*/
+	});
+});
+</script>
+</head>
+<body>
+ <img src="strawberry.jpg" id="straw" width="300" height="250" alt="딸기">
+ <!-- 해당 이미지를 불러오지 못하면 alt속성 값을 출력 -->
+ <hr>
+ <button type="button" id="attr_Btn">alt속성값 변경</button>
+</body>
+</html>
