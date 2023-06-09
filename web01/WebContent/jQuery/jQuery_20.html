@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="../js/jquery.js"></script>
+<style>
+div{
+	width: 60px; height: 60px;
+}
+</style>
+</head>
+<body>
+<div id="div01" style="background-color: blue;"></div>
+<script>
+$(document).ready(function(){
+	$("#btn01").click(function(){
+		var color = $('#div01').css("background-color");	//background-color 즉 배경색 속성값을 반환 (속성값을 color변수에 저장)
+		$("#result").text("background-color속성값: "+color);	//result id영역에 문자를 변경적용
+	});
+
+	$('#btn02').click(function(){
+		$('#div01').css("background-color","orange");	//div01 아이디 영역에 배경색을 오렌지로 변경적용
+	});
+});
+</script>
+<button type="button" id="btn01">배경속성값 반환</button>
+<button type="button" id="btn02">배경색변경 적용</button>
+<p id="result"> 여기에 배경색 속성값이 출력됩니다.</p>
+</body>
+</html>
