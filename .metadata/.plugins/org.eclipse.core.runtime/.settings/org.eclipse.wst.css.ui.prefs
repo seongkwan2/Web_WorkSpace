@@ -8,4 +8,5 @@ PSEUDO=\#3f7f7f | null | true | false | false | false
 SELECTOR=\#0000ff | null | true | false | false | false
 URI=\#2a00e1 | null | true | false | false | false
 eclipse.preferences.version=1
+newFileTemplateName=New CSS File
 org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
