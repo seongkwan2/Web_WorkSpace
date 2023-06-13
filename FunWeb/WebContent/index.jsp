@@ -1,4 +1,8 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%-- %@를 지시자 또는 디렉티브 라고 한다. %@ page를 page지시자 또는 page디렉티브 라고한다.
+	어떤 페이지에 대한 정의문을 내린다.
+	contentType="text/html; charset=UTF-8" 속성값의 의미는 웹브라우저에 출력되는
+	태그/문자, 언어코딩 타입을 UTF-8로 설정하라는 의미--%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,23 +17,24 @@
   			
   	<%--로그인 부분 + 회원가입 --%>
   	<div id="login">
-  	 <a href="#">Login</a> | <a href="#">Join</a>
+  	 <a href="#">Login</a> | <a href="./member/join.jsp">Join</a>
   	</div>		
   	
   	<div class="clear"></div>
   			
   	<%--회사 로고--%>
   	<div id="logo">
-	 <img src="./images/logo.gif" width="265" height="62" alt="Fun Web">  	
+	 <a href="index.jsp">
+	 <img src="./images/logo.gif" width="265" height="62" alt="Fun Web">  </a>
   	</div>
   
   	<%-- 상단 메뉴 --%>
   	<nav> <%-- nav태그는 html5에서 추가된 것으로 주로 메뉴구성 할 때 많이 사용 --%>
   	 <ul> <%-- 웹 표준 접근성에서 메뉴구성할 때는 거의 대부분 ul li태그를 사용한다. --%>
   	  <li><a href="index.jsp">HOME</a></li>
-  	  <li><a href="#">COMPANY</a></li>
+  	  <li><a href="./company/welcome.jsp">COMPANY</a></li>
   	  <li><a href="#">SOLUTIONS</a></li>
-  	  <li><a href="#">CUSTOMER CENTER</a></li>
+  	  <li><a href="./center/notice.jsp">CUSTOMER CENTER</a></li>
   	  <li><a href="#">CONTACT US</a><li>
   	 </ul>
   	</nav>

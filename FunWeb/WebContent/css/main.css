@@ -163,7 +163,7 @@ article #main_cont{
 }
 
 #sec_news dt a{
-	color:#F00; text-decoration: none;	/*하이퍼링크 된곳 밑줄선 제거*/
+	color:#F00; text-decoration: none;	/*하이퍼링크 된곳 밑줄 선 제거*/
 }
 
 #sec_news dt a:hover{	/*하이퍼링크 된곳 마우스 오버시 css효과*/
