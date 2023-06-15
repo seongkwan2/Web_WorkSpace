@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<entry loc="C:\myproject\dev\jdk-11.0.19" stamp="1683357366602"/>
-<entry loc="C:\Program Files\Java\jdk-1.8" stamp="1686183260503"/>
+    <entry loc="D:\KGITBANK\sw\program\spring-tool-suite-4-4.18\sts-4.18.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre" stamp="1682993922000"/>
+    <entry loc="C:\myproject\dev\jdk-11.0.19" stamp="1683357366602"/>
+    <entry loc="D:\KGITBANK\sw\program\spring-tool-suite-4-4.18\sts-4.18.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502" stamp="1682993922000"/>
+    <entry loc="C:\Program Files\Java\jdk-11.0.19" stamp="1679903743000"/>
+    <entry loc="C:\Program Files\Java\jdk-1.8" stamp="1686183260503"/>
 </dirs>
