@@ -14,7 +14,6 @@
  	background: blue;
  }
 </style>
-
 </head>
 <body>
  <div>1</div>
@@ -28,11 +27,11 @@
 		
 		$("div").click(function(){
 			$(this).width($modWidth).addClass("next");	//메서드 체이닝 방법을 사용해서 
-			   											//jQuery2개 함수를 한줄로 나열해서 한꺼번에 기능을 제공함 width() jQuery함수로 너비를 변경적용.
-			$modWidth -= 8; 							//클릭할 때 마다 너비가 8픽셀식 감소처리
+			   											//jQuery2개 함수를 한줄로 나열해서 한꺼번에 기능을 제공함 
+			   											//width() jQuery함수로 너비를 변경적용.
+			$modWidth -= 8; 							//클릭할 때 마다 너비가 8픽셀씩 감소처리
 		});
 	});
-
 </script>
 </body>
 </html>

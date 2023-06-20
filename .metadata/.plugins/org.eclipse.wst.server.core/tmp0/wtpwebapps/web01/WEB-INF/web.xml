@@ -9,4 +9,67 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <!-- XML 주석문 기호, 초기화 피라미터 설정 -->
+  <context-param>
+    <description>로깅 정보</description> <!-- 피라미터 설명 => 필수는 아니다. -->
+    <param-name>logEnabled</param-name><!-- 피라미터 이름 -->
+    <param-value>true</param-value> <!-- 피라미터 값 -->
+  </context-param>
+  
+  <context-param>
+    <description>디버깅 레벨</description>
+    <param-name>debugLevel</param-name>
+    <param-value>5</param-value>  
+  </context-param>
+  
+  <!-- 해당 경로에 파일 없음. 404 에러코드 처리  -->
+  <error-page> <!-- error-page는 한개의 에러 페이지를 지정 -->
+  	<error-code>404</error-code> <!-- 에러 상태 코드 -->
+  	<location>/error/error404.jsp</location>	<!-- 에러페이지가 사용할 jsp파일 경로 -->
+  </error-page>	<!-- xml파일을 수정하면 톰캣을 restart 해야 적용된다. -->
+  
+  <!-- 서버 내부 에러 500 -> 영문 대소문자를 잘못 입력 또는 오타 에러 -->
+  <error-page>
+  	<error-code>500</error-code>
+  	<location>/error/error500.jsp</location>
+  </error-page>
+  
+  <!-- NullPointerException 예외 오류 처리 -->
+  <error-page>
+  	<exception-type>java.lang.NullPointerException</exception-type>
+  	<location>/error/errorNullPointer.jsp</location>
+  </error-page>
 </web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
