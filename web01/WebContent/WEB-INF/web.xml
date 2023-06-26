@@ -40,6 +40,16 @@
   	<exception-type>java.lang.NullPointerException</exception-type>
   	<location>/error/errorNullPointer.jsp</location>
   </error-page>
+  
+  <!-- 코드 조각 자동 포함기능 -->
+  <jsp-config>
+   <jsp-property-group>
+    <url-pattern>/view/*</url-pattern>	<!-- url-pattern은 웹 주소창에서 실행되는 주소값을 의미한다.
+    											이것을 MVC(모델2)에서는 매핑 주소라고 부른다.-->
+    <include-prelude>/common/variable.jspf</include-prelude> <!-- url-pattern에서 지정한 jsp 파일의 앞에 삽입할 파일을 지정 -->
+    <include-coda>/common/footer.jsp</include-coda>	<!-- url-pattern에서 지정한 jsp파일의 뒷부분에 삽입할 파일을 지정 -->
+   </jsp-property-group>
+  </jsp-config>
 </web-app>
 
 
